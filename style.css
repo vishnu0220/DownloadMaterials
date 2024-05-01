@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (prefers-color-scheme : dark) {
+    body{
+        background-color: black;
+        color: gainsboro;
+    }
+}
+
+h3 {
+    margin-left: 20%;
+}
+
+#changeMode {
+    float: right;
+    margin: 2px;
+}
+
+#changeMode:hover {
+    cursor: pointer;
+}
+
+.newContent{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lightMode {
+    color: black;
+    background-color: white;
+}
+
+.darkMode {
+    color: white;
+    background-color: black;
+}
+
+img {
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.nav {
+    height: 25px;
+    width: auto;
+}
+
+ol li {
+    display: inline;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+}
